@@ -35,3 +35,35 @@ SWP1 is a small Python web programming exercise. It reads query parameters, comp
 ## Note
 
 This is a learning exercise for Python web basics and visualization, not a deployed web service.
+
+---
+
+## 한국어 버전
+
+# SWP1 Graph App
+
+query parameter를 받아 이차함수 graph를 그리는 작은 WSGI 실습 프로젝트입니다.
+
+## 개요
+
+SWP1은 Python web programming 기초를 연습한 프로젝트입니다. query parameter를 읽고, quadratic function을 계산한 뒤, Matplotlib으로 graph를 생성하고 WSGI-style `application` function을 통해 간단한 HTML response를 제공합니다.
+
+## 보여주는 내용
+
+- 기본 WSGI request/response structure
+- query string parsing
+- quadratic function visualization
+- Matplotlib graph generation
+- HTML template과 application logic 분리
+
+## 구조
+
+| 파일 | 역할 |
+| --- | --- |
+| `graph.py` | WSGI application 및 graph generation logic |
+| `template.py` | HTML template |
+| `environ.py` | environment/request practice file |
+
+## 참고
+
+deployed web service가 아니라 Python web basics와 visualization을 위한 learning exercise입니다.
